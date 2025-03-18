@@ -1,0 +1,48 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  
+    // 保存時に ESLint でエラー修正
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.organizeImports": true
+    },
+  
+    // インデント設定（スペース2つ）
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+  
+    // JSX 閉じタグの自動補完
+    "javascript.autoClosingTags": true,
+    "typescript.autoClosingTags": true,
+  
+    // Reactのスニペットを強化
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "typescript": "typescriptreact"
+    },
+  
+    // import 文を自動ソート
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "javascript.preferences.importModuleSpecifier": "relative",
+  
+    // TypeScript & JavaScript の型チェックを強化
+    "typescript.validate.enable": true,
+    "javascript.validate.enable": true,
+    "typescript.suggest.autoImports": true,
+    "javascript.suggest.autoImports": true,
+  
+    // エラーチェックを強化（ESLint & TypeScript）
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  
+    // Prettier の設定（改行、セミコロンなし、シングルクォート）
+    "prettier.printWidth": 100,
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
+    "prettier.trailingComma": "all",
+    "prettier.arrowParens": "always"
+  }
+  
